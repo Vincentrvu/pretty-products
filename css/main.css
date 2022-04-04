@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body, main {
+  margin: 0;
+  padding: 0;
+}
+
+main ol {
+  font-family: "Karma", serif;
+  font-size: 1.4rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+main li {
+  list-style-type: none;
+  margin: 1.5rem;
+  padding: 1rem;
+  border: 3px solid #987ffa;
+  border-radius: 3em;
+  display: flex;
+
+}
+
+main h2 {
+  font-family: "Oswald", sans-serif;
+  color: #6f00e7;
+}
+
+main section {
+
+}
