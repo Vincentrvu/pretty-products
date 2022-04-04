@@ -13,10 +13,6 @@ body, main {
   padding: 0;
 }
 
-li > img {
-  width: 100%;
-}
-
 main ol {
   font-size: 1.4rem;
   display: grid;
