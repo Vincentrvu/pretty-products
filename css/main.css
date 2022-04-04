@@ -7,15 +7,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-/*img {
-  width: 100%;
-}*/
+
 body, main {
   margin: 0;
   padding: 0;
 }
 
-li + img {
+li > img {
   width: 100%;
 }
 
