@@ -5,11 +5,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
+/*
 img {
   width: 100%;
 }
-
+*/
 body, main {
   margin: 0;
   padding: 0;
@@ -18,24 +18,48 @@ body, main {
 main ol {
   font-family: "Karma", serif;
   font-size: 1.4rem;
+  line-height: 1.5;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
+  margin: 0;
 }
 
 main li {
+  margin: 0;
+  padding: 1rem;
   list-style-type: none;
-  margin: 1.5rem;
   padding: 1rem;
   border: 3px solid #987ffa;
-  border-radius: 3em;
-  display: flex;
+  border-radius: 6px;
+}
 
+main span {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+span .cart {
+  text-decoration: none;
+  background-color: #6f00e7;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  border-radius: 3em;
+  margin: 0 auto 0 0;
+  padding: .5em 1.5em .7em;
+  display: flex;
+  align-items: center;
 }
 
 main h2 {
   font-family: "Oswald", sans-serif;
   color: #6f00e7;
+  margin: 0;
+}
+
+main p {
+  margin: 0;
 }
 
 main section {
