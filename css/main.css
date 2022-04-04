@@ -23,6 +23,7 @@ main ol {
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
   margin: 0;
+  padding: 1rem;
 }
 
 main li {
@@ -32,10 +33,12 @@ main li {
   padding: 1rem;
   border: 3px solid #987ffa;
   border-radius: 6px;
+  text-align: center;
 }
 
 main span {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
 }
@@ -54,6 +57,7 @@ span .cart {
 
 main h2 {
   font-family: "Oswald", sans-serif;
+  font-size: 2rem;
   color: #6f00e7;
   margin: 0;
 }
