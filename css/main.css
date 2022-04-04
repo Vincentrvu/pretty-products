@@ -15,6 +15,10 @@ body, main {
   padding: 0;
 }
 
+li + img {
+  width: 100%;
+}
+
 main ol {
   font-family: "Karma", serif;
   font-size: 1.4rem;
@@ -34,6 +38,8 @@ main li {
   border: 3px solid #987ffa;
   border-radius: 6px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 main span {
@@ -41,6 +47,7 @@ main span {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  margin: auto 0 0 0;
 }
 
 span .cart {
