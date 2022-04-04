@@ -13,6 +13,10 @@ body, main {
   padding: 0;
 }
 
+li > img {
+  max-width: 15em;
+}
+
 main ol {
   font-size: 1.4rem;
   display: grid;
@@ -31,6 +35,7 @@ main li {
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 main div {
